@@ -6,6 +6,9 @@ const nextConfig = {
     config.cache = false;
     return config;
   },
+  experimental: {
+    ssr: true,
+  },
 };
 
 export default nextConfig;
